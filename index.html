@@ -11,11 +11,12 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2> ✨ Open the Console to See What's Happening ✨</h2>
+      
     </header>
     <main>
       <section class="card" id="html-section">
           <h2>HTML</h2>
-          <h3>Enter your HTML notes here</h3>
 
           <ul>
             <li>The head element contains information about the webpage.</li>
@@ -48,7 +49,6 @@
       </section>
       <section class="card" id="css-section">
           <h2>CSS</h2>
-          <h3>Enter your CSS notes here</h3>
 
           <ul>
             <li>A margin indicates how much space we want arround the outside of an element</li>
@@ -60,7 +60,6 @@
       </section>
       <section class="card" id="git-section">
         <h2>git</h2>
-        <h3>Enter your git notes here</h3>
         <ul>
           <li>git commands are always proceded with the git keyword</li>
           <li>The status command checks what branch we are currently on and shows the changes made to the branch?</li>
@@ -68,15 +67,42 @@
             <ul>
               <li>The -b option takes a branch name (-b branch-name) and creates a new branch off of the current branch and switches to it</li>
             </ul>
+            <li>The reset command will undo changes made to the git tree? ( ex: git reset --'manner' 'commit designator'</manner></li>
+            <ul>
+              <li>the --hard command will go back to a previous commit</li>
+              <li>the --soft command will go back to a previous commit with all changes since that commit showing up as staged changes</li>
+              <li>the HEAD parameter after that will specify how many commits to go back (eg. HEAD^ or HEAD~1 to go back 1 commit or HEAD~4 to go back 4 commits</li>
+              <li>the HEAD parameter can be replaced with the first 7 digits of the commit hash to reset to a specific commit</li>
+            </ul>
 
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
-        <h3>Enter your Javascript notes here </h3>
+        
         <ul>
-          <li>Java code</li>
+          <li>link to basic javascript info  https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics</li>
+          <li>To add javascript to an html file, add the 'script elemnt' before the /body element</li>
+          <li>To specify the java script file to use use the scr attribute of the script element with a relative file location of the '.js' file</li>
+          <li>In java script variables are declared with the let keyword (let myVariable)</li>
+          <ul>
+            <li>Variable names must start with an '_' '$' or a letter</li>
+            <li>Variable names can contain the above symbols as well as digits 0-9</li>
+            <li>variable names are case sensitive</li>
+            
+          </ul>
+          <li>In javascript use '===' to check if variables are Strictly Equal</li>
+          <li>both '==' and '===' check for equality</li>
+          <li>In javascript use '!==' to check if variables are NOT equal or apply '!' as NOT in front of equality check</li>
+          <li>comments is javascript are denoted by // for a single line or /* */ for multi line comments</li>
+          <li>semi colons are required to split statements on a single line but are not required. (it is good practice to have semi colons at the end of each statement</li>
+          <li>Operators in Javascript are listed here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators </li>
+          <li>Open the dev tools with ctl + shift + I or right click inspect to see any ouput data</li>
+          <strong>
+            <li>In javascript the let keyword defines a variable to the current block of code</li>
+            <li>In javascript the var keyword defines a variable globaly or to the function scope regardless of block scope</li>
+          </strong>
         </ul>
       </section>
     </main>
@@ -84,5 +110,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="assets/script.js"></script>
   </body>
 </html>
